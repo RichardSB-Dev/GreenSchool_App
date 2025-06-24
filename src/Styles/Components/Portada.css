@@ -1,11 +1,11 @@
 .div__img-top{
-  width: 40%;
+  width: 35%;
 }
 
 .home-image {
-  width: 350px;
+  width: 300px;
   max-width: 500px;
-  height: 400px;
+  height: 350px;
   border-radius: 20px;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
   margin-bottom: 2rem;
