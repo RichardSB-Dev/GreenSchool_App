@@ -1,0 +1,25 @@
+.quote-section {
+  background-color: #fff; /* Verde muy suave */
+  padding: 4rem 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote-text {
+  font-size: 1.8rem;
+  color: #000;
+  font-weight: 600;
+  text-align: center;
+  max-width: 700px;
+  line-height: 1.6;
+  font-style: italic;
+}
+
+.quote-text span {
+  display: block;
+  margin-top: 1rem;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #047857;
+}

@@ -1,0 +1,84 @@
+.edu-section {
+  padding: 1rem 3rem;
+  text-align: center;
+  background-color: #f8fdf4;
+}
+
+.edu-title {
+  font-size: 2rem;
+  color: #14532d;
+  margin-bottom: 0.5rem;
+}
+
+.edu-subtitle {
+  color: #4d7c0f;
+  margin-bottom: 2rem;
+}
+
+.edu-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+}
+
+.edu-buttons button {
+  background-color: #d1fae5;
+  border: none;
+  padding: 0.7rem 1.4rem;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background-color 0.3s;
+}
+
+.edu-buttons button:hover {
+  background-color: #34d399;
+  color: white;
+}
+
+.edu-buttons .active {
+  background-color: #059669;
+  color: white;
+}
+
+.edu-cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1rem;
+  padding: 1rem 0;
+}
+
+.edu-card {
+  background-color: white;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+  transition: transform 0.3s, box-shadow 0.3s;
+  display: flex;
+  flex-direction: column;
+}
+
+.edu-image {
+  height: 180px;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+}
+
+.edu-card-body {
+  padding: 1rem;
+  text-align: left;
+}
+
+.edu-card-body h3 {
+  font-size: 1.1rem;
+  color: #166534;
+  margin-bottom: 0.3rem;
+}
+
+.edu-card-body p {
+  color: #6b7280;
+  font-size: 0.9rem;
+}

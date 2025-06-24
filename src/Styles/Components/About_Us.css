@@ -1,0 +1,29 @@
+.acerca-de{
+  height: 300px;
+  margin: auto;
+  margin-top: 50px;
+  padding: 0 3rem;
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+}
+
+.acerca-de__img{
+  width: 300px;
+  height: 260px;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.about-section {
+  background-color: #FFF;
+  text-align: center;
+}
+
+.about-text {
+  max-width: 700px;
+  margin: 0 auto;
+  font-size: 1.2rem;
+  line-height: 1.8;
+  color: #000;
+}

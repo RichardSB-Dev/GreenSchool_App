@@ -1,0 +1,41 @@
+.glossary-section {
+  padding: 4rem 3rem;
+  background-color: #f0fdf4;
+  text-align: center;
+}
+
+.glossary-title {
+  font-size: 2rem;
+  color: #065f46;
+  margin-bottom: 0.5rem;
+}
+
+.glossary-subtitle {
+  color: #047857;
+  margin-bottom: 2rem;
+}
+
+.glossary-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+  justify-items: center;
+}
+
+.glossary-card {
+  background-color: white;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.glossary-card:hover {
+  transform: translateY(-6px);
+}
+
+.glossary-icon {
+  font-size: 2.5rem;
+  margin-bottom: 0.8rem;
+}
